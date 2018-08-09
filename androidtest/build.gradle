@@ -60,6 +60,7 @@ dependencies {
     androidTestImplementation 'com.fasterxml.jackson.core:jackson-core:2.9.0.pr4'
     androidTestImplementation 'com.fasterxml.jackson.core:jackson-annotations:2.9.0.pr4'
     androidTestImplementation 'com.fasterxml.jackson.core:jackson-databind:2.9.0.pr4'
+    androidTestImplementation "org.mockito:mockito-android:+"
 
     androidTestImplementation project(path: ':e3db')
     androidTestImplementation project(path: ':e3db-crypto-interface')
